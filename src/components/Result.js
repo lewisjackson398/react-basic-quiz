@@ -8,7 +8,6 @@ function Result(props) {
             className="container result fade-appear-done"
             component="div"
             timeout={200}
-            appearDone
         >
             <div>
                 You prefer <strong>{props.quizResult}</strong>!
